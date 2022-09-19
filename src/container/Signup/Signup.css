@@ -1,0 +1,69 @@
+.authentication-main-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.authentication-container{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 18rem;
+    margin: 2rem;
+    border-top: 2px solid rgba(64, 145, 223, 0.12);
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.auth-input > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right:2rem;
+    width: 100%;
+    padding: 1rem;
+    height: 2rem;
+    border: 1px solid rgba(203, 219, 234, 1);
+    border-radius: 8px;
+}
+.input-field{
+    width: 18rem;
+    border: none;
+    outline: none;
+   font-size: 14px;
+}
+.auth-input >button{
+    background-color: rgba(50, 156, 137, 1);
+    margin-top: 2rem;
+    border: none;
+    color: white;
+    height: 2rem;
+    border-radius: 8px;
+}
+.auth-btn{
+    width: 100%;
+    height: 100%;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    width: 5.75rem !important;
+    margin-top: 1rem !important;
+    padding: 0 !important;
+    border: none !important;
+    justify-content: left;
+    font-size: 10px;
+
+}
+.remember > input{
+    width: 11px;
+    height: 11px;
+}

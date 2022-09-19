@@ -1,0 +1,23 @@
+.auth-login-header{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.auth-login-header h3{
+    color: #1A3B58;
+    font-style: medium;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 21.23px;
+    margin-bottom: 5px;
+}
+.auth-login-header p{
+    color: #999999;
+    font-style:light;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15px;
+    line-height: 100%;
+}
